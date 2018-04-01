@@ -32,7 +32,7 @@ class SelectedChannelCell: UITableViewCell {
             make.left.equalTo(18)
             make.height.equalTo(14)
         }
-        channelNameLabel.text = "已选频道"
+        channelNameLabel.text = "已选歌曲标签"
         markLabel = UILabel()
         markLabel.textColor = .gray
         markLabel.font = UIFont.systemFont(ofSize: 12)
