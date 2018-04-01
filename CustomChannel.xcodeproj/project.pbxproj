@@ -14,6 +14,13 @@
 		6C9F8A542070A8B6006D84A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9F8A522070A8B6006D84A0 /* LaunchScreen.storyboard */; };
 		6C9F8A5F2070A8B7006D84A0 /* CustomChannelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A5E2070A8B7006D84A0 /* CustomChannelTests.swift */; };
 		6C9F8A6A2070A8B7006D84A0 /* CustomChannelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A692070A8B7006D84A0 /* CustomChannelUITests.swift */; };
+		6C9F8A812070AA02006D84A0 /* UIScreenExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7A2070AA01006D84A0 /* UIScreenExt.swift */; };
+		6C9F8A822070AA02006D84A0 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7B2070AA01006D84A0 /* UIColorExt.swift */; };
+		6C9F8A832070AA02006D84A0 /* SelectedChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7C2070AA01006D84A0 /* SelectedChannelCell.swift */; };
+		6C9F8A842070AA02006D84A0 /* PureTagList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7D2070AA01006D84A0 /* PureTagList.swift */; };
+		6C9F8A852070AA02006D84A0 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7E2070AA01006D84A0 /* UIImageExt.swift */; };
+		6C9F8A862070AA02006D84A0 /* CustomchannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F8A7F2070AA01006D84A0 /* CustomchannelView.swift */; };
+		6C9F8A892070AA28006D84A0 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9F8A782070A9EB006D84A0 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C9F8A8A2070AA29006D84A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C9F8A892070AA28006D84A0 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6C9F8A462070A8B5006D84A0 /* CustomChannel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomChannel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F8A492070A8B5006D84A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +68,13 @@
 		6C9F8A652070A8B7006D84A0 /* CustomChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9F8A692070A8B7006D84A0 /* CustomChannelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelUITests.swift; sourceTree = "<group>"; };
 		6C9F8A6B2070A8B7006D84A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9F8A782070A9EB006D84A0 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapKit.framework; sourceTree = "<group>"; };
+		6C9F8A7A2070AA01006D84A0 /* UIScreenExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExt.swift; sourceTree = "<group>"; };
+		6C9F8A7B2070AA01006D84A0 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		6C9F8A7C2070AA01006D84A0 /* SelectedChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedChannelCell.swift; sourceTree = "<group>"; };
+		6C9F8A7D2070AA01006D84A0 /* PureTagList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PureTagList.swift; sourceTree = "<group>"; };
+		6C9F8A7E2070AA01006D84A0 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		6C9F8A7F2070AA01006D84A0 /* CustomchannelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomchannelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,7 @@
 		6C9F8A3D2070A8B5006D84A0 = {
 			isa = PBXGroup;
 			children = (
+				6C9F8A772070A9EB006D84A0 /* Frameworks */,
 				6C9F8A482070A8B5006D84A0 /* CustomChannel */,
 				6C9F8A5D2070A8B7006D84A0 /* CustomChannelTests */,
 				6C9F8A682070A8B7006D84A0 /* CustomChannelUITests */,
@@ -97,6 +126,12 @@
 		6C9F8A482070A8B5006D84A0 /* CustomChannel */ = {
 			isa = PBXGroup;
 			children = (
+				6C9F8A7F2070AA01006D84A0 /* CustomchannelView.swift */,
+				6C9F8A7D2070AA01006D84A0 /* PureTagList.swift */,
+				6C9F8A7C2070AA01006D84A0 /* SelectedChannelCell.swift */,
+				6C9F8A7B2070AA01006D84A0 /* UIColorExt.swift */,
+				6C9F8A7E2070AA01006D84A0 /* UIImageExt.swift */,
+				6C9F8A7A2070AA01006D84A0 /* UIScreenExt.swift */,
 				6C9F8A492070A8B5006D84A0 /* AppDelegate.swift */,
 				6C9F8A4B2070A8B5006D84A0 /* ViewController.swift */,
 				6C9F8A4D2070A8B5006D84A0 /* Main.storyboard */,
@@ -125,6 +160,14 @@
 			path = CustomChannelUITests;
 			sourceTree = "<group>";
 		};
+		6C9F8A772070A9EB006D84A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9F8A782070A9EB006D84A0 /* SnapKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +178,7 @@
 				6C9F8A422070A8B5006D84A0 /* Sources */,
 				6C9F8A432070A8B5006D84A0 /* Frameworks */,
 				6C9F8A442070A8B5006D84A0 /* Resources */,
+				6C9F8A8A2070AA29006D84A0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9F8A4C2070A8B5006D84A0 /* ViewController.swift in Sources */,
+				6C9F8A862070AA02006D84A0 /* CustomchannelView.swift in Sources */,
+				6C9F8A822070AA02006D84A0 /* UIColorExt.swift in Sources */,
+				6C9F8A852070AA02006D84A0 /* UIImageExt.swift in Sources */,
+				6C9F8A842070AA02006D84A0 /* PureTagList.swift in Sources */,
+				6C9F8A832070AA02006D84A0 /* SelectedChannelCell.swift in Sources */,
 				6C9F8A4A2070A8B5006D84A0 /* AppDelegate.swift in Sources */,
+				6C9F8A812070AA02006D84A0 /* UIScreenExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +481,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = CustomChannel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +502,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = CustomChannel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
